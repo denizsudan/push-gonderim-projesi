@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "Push Gönderim Projesi",
+    "slug": "push-gonderim-projesi",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.denizsudanorg.pushgonderimprojesi"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.denizsudanorg.pushgonderimprojesi"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f37ced5d-7495-4347-a6e2-555b1ce90c19"
+      }
+    },
+    "owner": "denizsudan-org",
+    "updates": {
+      "url": "https://u.expo.dev/f37ced5d-7495-4347-a6e2-555b1ce90c19"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
